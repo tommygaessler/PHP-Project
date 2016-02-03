@@ -8,11 +8,13 @@
         <div class="hero">
 
             <div class="row clearfix">
+                <div class="heroborder">
                 <?php if(empty($userName)) : ?>
                     <h1>Who you be? <a href="login.php">Login Here</a></h1>
                 <?php else : ?>
                     <h1>Hello <?php echo $userName; ?>, nice to see you again.</h1>
                 <?php endif; ?>
+                </div>
             </div>
         </div>
 

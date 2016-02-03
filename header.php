@@ -10,7 +10,7 @@
 
 <head>
 
-    <title><?php echo $pageTitle; ?> | Tommy Gaessler</title>
+    <title><?php echo $pageTitle; ?> | <?php echo $userName; ?></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +22,7 @@
 <body id="<?php echo $pageID; ?>">
     <header>
 
-        <div class="row clearfix margin">
+        <div class="headerrow clearfix">
 
             <a href="index.php"><img class="logo" src="images/logo.png"></a>
 
