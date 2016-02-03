@@ -22,7 +22,7 @@
 <body id="<?php echo $pageID; ?>">
     <header>
 
-        <div class="headerrow clearfix">
+        <div class="row clearfix">
 
             <a href="index.php"><img class="logo" src="images/logo.png"></a>
 

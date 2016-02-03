@@ -73,13 +73,14 @@ main a:hover
   margin: auto;
 }
 
+/*
 .headerrow
 {
     width: 90%;
     max-width: 800px;
     margin: auto;
 }
-
+*/
 .column {
   float: left;
   margin-right: 2%;
@@ -119,6 +120,11 @@ header
 body#home header
 {
 	margin-bottom: 0px;
+}
+
+body#home main
+{
+  padding-top: 0px;
 }
 
 header.row
@@ -227,7 +233,7 @@ h3
 footer
 {
 	background: #293241;
-	
+	float: none;
 	font-size: 11px;
 	text-align: center;
     

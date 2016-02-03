@@ -23,7 +23,7 @@ foreach($posts as $post)
 
 <?php include 'header.php' ?>
 <main>
-    <div class="row">
+    <div class="row clearfix">
         <h3><?php echo $postTitle; ?></h3>
 
         <?php echo $postPicture?>
